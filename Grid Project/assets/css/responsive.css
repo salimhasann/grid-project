@@ -1,0 +1,95 @@
+/* Medium layout: 1200px */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .container{
+        width: 970px;
+    }
+}
+
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .container{
+        width: 750px;
+    }
+    .about_area {
+        padding: 30px 0px;
+    }
+}
+
+/* Mobile Layout: 320px */
+@media only screen and (max-width: 767px){
+    .container{
+        width: 300px;
+    }
+    .header {
+        grid-template-columns: auto;
+        text-align: center;
+    }
+    .menu ul {
+        grid-template-columns: auto;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .menu ul li{
+        margin-bottom: 10px;
+    }
+    .about_area {
+        padding: 30px 0px;
+    }
+    .about_title h4 {
+        font-size: 22px;
+        font-weight: 900;
+    }
+    p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about {
+        grid-template-columns: auto;
+    }
+    .service_area {
+        padding: 30px 0px;
+    }
+    .service {
+
+        grid-template-columns: auto;
+
+    }.title{
+        margin-bottom: 20px;
+    }
+    .single_servicce h4{
+        font-size: 22px;
+        color: #fff;
+    }
+    .gallery_area {
+        padding: 30px 0px;
+    }
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 15px 15px;
+    }
+    .contact_area {
+        padding: 30px 0px;
+    }
+    .contact {
+        grid-template-columns: auto;
+        row-gap: 40px;
+    }
+    .singel_contact {
+        display: grid;
+        grid-template-columns: 1fr 5fr;
+        grid-column-gap: 10px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+}
+
+/* Wide Mobile Layout: 480px */
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    .container{
+        width: 450px;
+    }
+    .menu ul {
+        grid-template-columns: repeat(5, auto);
+    }
+}
